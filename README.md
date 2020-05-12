@@ -1,3 +1,7 @@
+## What's next bro?
+
+This is my first application on ReactJS. This is a simple Todo application with the ability to make, change and delete information. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
