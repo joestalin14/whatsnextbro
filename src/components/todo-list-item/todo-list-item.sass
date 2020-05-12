@@ -1,0 +1,36 @@
+.todo-list-item
+  .buttons-group
+    width: 115px
+    float: right
+    display: block
+    button
+      width: 35px
+      padding: 3px
+      margin: 2px
+      &:nth-of-type(3n)
+        margin-right: 0
+  .todo-list-item-label
+    line-height: 1.2
+    cursor: pointer
+    user-select: none
+    width: calc(100% - 210px)
+    display: inline-block
+.todo-list-item.important
+  .todo-list-item-label
+    color: #ffc107
+    font-weight: 700
+.todo-list-item.done
+  .todo-list-item-label
+    text-decoration: line-through
+@media (max-width: 540px)
+  .todo-list-item
+    .todo-list-item-label
+      width: calc(100% - 114px)
+    .buttons-group
+      width: 92px
+      button
+        margin-left: 5px
+        width: 29px
+        height: 29px
+        margin: 1px
+        padding: 0 5px
